@@ -5,7 +5,7 @@ import time
 fanPin = 4 # Define pin
 fan = OutputDevice(fanPin)
 cpu = CPUTemperature()
-logPath = "/home/pi/PythonProjects/FanControl/FanControl.log"
+logPath = "/home/pi/PythonProjects/FanControl/FanControl.log" # Log path
 
 def GetCurrentData(): # Get date, time and CPU temperature as global variables
     global currdate

@@ -2,7 +2,7 @@ from gpiozero import OutputDevice, CPUTemperature
 from time import sleep
 import time
 
-fanPin = 4
+fanPin = 4 # Define pin
 fan = OutputDevice(fanPin)
 cpu = CPUTemperature()
 logPath = "/home/pi/PythonProjects/FanControl/FanControl.log"
